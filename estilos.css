@@ -1,0 +1,58 @@
+body{
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url("carro2.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+.producto{
+    display: flex;
+    align-items: center;
+    background: rgba(34,34,34,0.85);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+}
+
+.producto img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.info h2{
+    color: orange;
+}
+
+.precio{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.extra{
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgba(34,34,34,0.85);
+    padding: 20px;
+    border-radius: 15px;
+}
