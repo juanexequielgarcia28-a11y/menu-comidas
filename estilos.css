@@ -4,7 +4,7 @@ body{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     ),
-    url("carro2.webp");
+    url("promo.jpeg");
 
     background-size: cover;
     background-position: center;
@@ -17,10 +17,65 @@ body{
     padding: 20px;
 }
 
+/* LOGO */
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid orange;
+    box-shadow: 0 0 15px rgba(255,165,0,0.8);
+}
+
+/* TITULO */
+
 h1{
     text-align: center;
     color: orange;
+    font-size: 42px;
+    margin-top: 10px;
 }
+
+/* BANNER */
+
+.banner{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255,165,0,0.5);
+}
+
+/* BOTON WHATSAPP */
+
+.pedido{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pedido a{
+    background: orange;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pedido a:hover{
+    background: #ffb733;
+}
+
+/* PRODUCTOS */
 
 .producto{
     display: flex;
@@ -36,8 +91,8 @@ h1{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-right: 20px;
     object-fit: cover;
+    margin-right: 20px;
 }
 
 .info h2{
@@ -47,7 +102,10 @@ h1{
 .precio{
     font-size: 24px;
     font-weight: bold;
+    color: #ffd700;
 }
+
+/* INFORMACION EXTRA */
 
 .extra{
     max-width: 800px;
@@ -55,4 +113,8 @@ h1{
     background: rgba(34,34,34,0.85);
     padding: 20px;
     border-radius: 15px;
+}
+
+.extra h2{
+    color: orange;
 }
